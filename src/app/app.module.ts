@@ -23,6 +23,7 @@ import { MatSortModule } from '@angular/material/sort';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { HierarchyViewComponent } from './position/hierarchy-view/hierarchy-view.component';
 import { EmployeeListComponent } from './employee/employee-list/employee-list.component';
+import { OrganizationChartModule } from 'primeng/organizationchart';
 
 @NgModule({
   declarations: [
@@ -51,6 +52,7 @@ import { EmployeeListComponent } from './employee/employee-list/employee-list.co
     MatPaginatorModule,
     MatSortModule,
     MatSnackBarModule,
+    OrganizationChartModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
