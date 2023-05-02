@@ -50,6 +50,5 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'tuliphrWeb'
-          slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4410B2075775430C953E3E2EFD7F4E01 }}
           package: .dist/tulip-hr.web
