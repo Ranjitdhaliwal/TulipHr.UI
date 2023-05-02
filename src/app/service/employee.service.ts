@@ -7,8 +7,8 @@ import { Observable } from 'rxjs';
 })
 export class EmployeeService {
 
-  //private baseUrl = 'https://tuliphr.azurewebsites.net/api/employees';
-  private baseUrl = 'https://localhost:7265/api/employees';
+  private baseUrl = 'https://tuliphr.azurewebsites.net/api/employees';
+  
   constructor(private _http: HttpClient) { }
 
   create(employee: any): Observable<any> {
