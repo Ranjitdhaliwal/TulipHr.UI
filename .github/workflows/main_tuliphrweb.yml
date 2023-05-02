@@ -51,4 +51,4 @@ jobs:
         with:
           app-name: 'tuliphrWeb'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4410B2075775430C953E3E2EFD7F4E01 }}
-          package: .dist/tulip-hr.web
+          package: ./dist/tulip-hr.web
