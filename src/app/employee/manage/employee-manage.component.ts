@@ -1,8 +1,8 @@
 import { Component, Inject, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
-import { StatusService } from '../util/status.service';
-import { EmployeeService } from '../service/employee.service';
+import { StatusService } from '../../util/status.service';
+import { EmployeeService } from '../../service/employee.service';
 
 @Component({
   selector: 'app-employee-manage',
